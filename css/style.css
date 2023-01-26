@@ -162,27 +162,27 @@ footer {
     }
     #retangulo {
         width: 450px;
-        height: 30%;
+        height: 300px;
         left: 50px;
-        top: 75%;
+        top: 750px;
         padding-bottom: 150px;
     }
     #desenho {
         display: none;
     }
     #textoImagem {
-        left: 15%;
-        top: 80%;
+        left: 100px;
+        top: 800px;
     }
     #divMostraTexto,
     #mostraTexto {
-        top: 80%;
+        top: 800px;
         width: 380px;
         height: 200px;
         left: 90px;
     }
     #copiar {
-        top: 95%;
+        top: 950px;
         left: 100px;
     }
 }
@@ -219,23 +219,23 @@ footer {
     }
     #retangulo {
         width: 370px;
-        height: 40%;
+        height: 400px;
         left: 0.1%;
-        top: 65%;
+        top: 650px;
     }
     #textoImagem {
         left: 5%;
     }
     #divMostraTexto,
     #mostraTexto {
-        top: 70%;
+        top: 700px;
         width: 310px;
         height: 310px;
-        left: 6%;
+        left: 25px;
     }
     #copiar {
-        top: 95%;
-        left: 7%;
+        top: 950px;
+        left: 30px;
         width: 300px;
     }    
 }
