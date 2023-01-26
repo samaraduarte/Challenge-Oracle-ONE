@@ -1,0 +1,241 @@
+body {
+    background-color: #E5E5E5;
+}
+.logo {
+    position: absolute;
+    left: 10%;
+    right: 37.43%;
+    top: 6%;
+    bottom: 0%;
+}
+#areaTexto {
+    position: absolute;
+    width: 600px;
+    height: 205px;
+    left: 150px;
+    top: 168px;
+
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+
+    color: #0A3871;
+    background: #E5E5E5;
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+}
+.informacao {
+    position: absolute;
+    left: 150px;
+    top: 400px;
+}
+.crip,
+.decrip,
+#copiar {
+    font-size: 20px;
+    width: 328px;
+    height: 67px;
+    border-radius: 24px;
+}
+.crip {
+    background: #0A3871;
+
+    position: absolute;
+    left: 150px;
+    top: 450px;
+    cursor: pointer;
+}
+.decrip {
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+
+    position: absolute;
+    left: 500px;
+    top: 450px;
+    cursor: pointer;
+}
+#circulo {
+    background: lightblue;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+footer {
+    text-align: center;
+    background-color: #0A3871;
+    padding: 30px 0;
+    color: #D8DFE8;
+
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 20px;
+}
+#retangulo {
+    width: 30%;
+    height: 83%;
+    position: absolute;
+    left: 65%;
+    right: 37.43%;
+    top: 6%;
+    bottom: 0%;
+}
+#desenho {
+    position: absolute;
+    left: 67%;
+    right: 37.43%;
+    top: 15%;
+    bottom: 0%;
+}
+#textoImagem {
+    position: absolute;
+    left: 68%;
+    right: 37.43%;
+    top: 60%;
+    bottom: 0%;
+}
+#divMostraTexto {
+    position: absolute;
+    left: 70%;
+    right: 70%;
+    top: 10%;
+}
+#copiar {
+    background: #FFFFFF;
+    border: 1px solid #0A3871;
+
+    position: absolute;
+    left: 68%;
+    top: 450px;
+    cursor: pointer;
+}
+#mostraTexto {
+    font-weight: 350;
+    font-size: 30px;
+    line-height: 120%;
+
+    color: #0A3871;
+    background: #FFFFFF;
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+    width: 300px;
+    height: 350px;
+}
+#github,
+#linkedin {
+    padding: 3px;
+    height: 25px;
+}
+#one {
+    color: white;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 800px) {
+    #areaTexto {
+        width: 400px;
+        height: 400px;
+        left: 50px;
+        top: 150px;
+    }
+    .informacao {
+        left: 100px;
+        top: 600px;
+    }
+    .crip {
+        left: 50px;
+        top: 650px;
+    }
+    .decrip {
+        left: 300px;
+        top: 650px;
+    }
+    .crip,
+    .decrip,
+    #copiar {
+        font-size: 20px;
+        width: 220px;
+        height: 65px;
+        border-radius: 15px;
+    }
+    #retangulo {
+        width: 450px;
+        height: 30%;
+        left: 50px;
+        top: 75%;
+        padding-bottom: 150px;
+    }
+    #desenho {
+        display: none;
+    }
+    #textoImagem {
+        left: 15%;
+        top: 80%;
+    }
+    #divMostraTexto,
+    #mostraTexto {
+        top: 80%;
+        width: 380px;
+        height: 200px;
+        left: 90px;
+    }
+    #copiar {
+        top: 95%;
+        left: 100px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #areaTexto {
+        width: 350px;
+        height: 350px;
+        left: 15px;
+        top: 100px;
+    }
+    .logo {
+        top: 2%;
+        left: 5%;
+    }
+    .informacao {
+        left: 5%;
+        top: 450px;
+    }
+    .crip,
+    .decrip,
+    #copiar {
+        width: 328px;
+        height: 67px;
+        top: 450px;
+    }
+    .crip {
+        top: 480px;
+        left: 5%;
+    }
+    .decrip {
+        top: 560px;
+        left: 5%;
+    }
+    #retangulo {
+        width: 370px;
+        height: 40%;
+        left: 0.1%;
+        top: 65%;
+    }
+    #textoImagem {
+        left: 5%;
+    }
+    #divMostraTexto,
+    #mostraTexto {
+        top: 70%;
+        width: 310px;
+        height: 310px;
+        left: 6%;
+    }
+    #copiar {
+        top: 95%;
+        left: 7%;
+        width: 300px;
+    }    
+}
